@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 - Установить postgresql в терминале Docker: docker pull postgres;
 
-- Запустить postgres в Docker-контейнере, в терминале Docker: docker run -e POSTGRES_PASSWORD=root -p 5432:5432 postgres (где соотвественно user=postgres password=root);
+- Запустить postgres в Docker, в терминале Docker: docker run -e POSTGRES_PASSWORD=root -p 5432:5432 postgres (где соотвественно user=postgres password=root);
 
 - В файле ./src/main/resources/application.properties указать имя пользователя для доступа к базе данных: spring.datasource.username = postgres и в spring.datasource.password = root (пароль для доступа к базе);
 
