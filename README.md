@@ -19,9 +19,9 @@ ________________________________________________________________________________
 - В файле ./src/main/resources/application.properties указать имя пользователя для доступа к базе данных: spring.datasource.username = postgres и в spring.datasource.password = root (пароль для доступа к базе);
 
 - В параметре spring.datasource.url = <указать адрес для доступа к базе данных> : 
-  1) Для базы данных запущенной на локальном машине: jdbc:postgresql://localhost:5432/postgresql
-  2) Для базы данных запущенной в docker на локальной машине: jdbc:postgresql://172.17.0.1:5432/postgresql);
-  3) Для того чтобы узнать IP виртуальной машины Docker, в терминале Docker: docker-machine ip default;
+  1. Для базы данных запущенной на локальном машине: jdbc:postgresql://localhost:5432/postgresql
+  2. Для базы данных запущенной в docker на локальной машине: jdbc:postgresql://172.17.0.1:5432/postgresql);
+  3. Для того чтобы узнать IP виртуальной машины Docker, в терминале Docker: docker-machine ip default;
 
 - Настройка самой базы данных осуществляется с помощью ./src/main/resources/schema.sql. Выполнить команду: psql -h <адрес_БД> -p <порт_БД> -U <имя_пользователя> -d public -f "schema.sql";
 
