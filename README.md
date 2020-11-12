@@ -54,7 +54,7 @@ curl -X GET http://127.0.0.1:8080/api/v1/books
 
 - Получить соотвествующую запись по id:
 
-curl -X GET http://127.0.0.1:8080/api/v1/book/{id}      Book(name=Гарри Поттер и философский камень, brand=Джоан Роулинг, price=320, quantity=7)
+curl -X GET http://127.0.0.1:8080/api/v1/book/{id} ______ Book(name=Гарри Поттер и философский камень, brand=Джоан Роулинг, price=320, quantity=7)
 
 - Добавить запись:
 
@@ -66,7 +66,7 @@ curl -i -X DELETE http://127.0.0.1:8080/api/v1/books/del/{id}
 
 - Приложение возвращает значение hostname:
 
-curl -X GET http://127.0.0.1:8080/api/v1/status {"hostname": "LAPTOP-3IRCU5BM"}
+curl -X GET http://127.0.0.1:8080/api/v1/status ______{"hostname": "LAPTOP-3IRCU5BM"}
 
 
 
