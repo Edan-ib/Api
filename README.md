@@ -97,7 +97,7 @@ curl -X POST http://127.0.0.1:8080/api/v1/books -d
 
 - Удалить запись:
 
-curl -i -X DELETE http://127.0.0.1:8080/api/v1/books/del/{id}
+curl -i -X DELETE http://127.0.0.1:8080/api/v1/books/del/{id} В ответе будет получен статус 204 No Content.
 
 - Приложение возвращает значение hostname:
 
