@@ -100,8 +100,7 @@ curl -X GET http://127.0.0.1:8080/api/v1/book/{id} {
 - Добавить запись:
 
 curl -X POST http://127.0.0.1:8080/api/v1/books -d  {
-  "id": 1,
-  "name": "Новая книига",
+  "name": "Новая книга",
   "brand": "Новый автор",
   "price": 100,
   "quantity": 7
