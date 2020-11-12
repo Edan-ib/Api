@@ -10,7 +10,7 @@ ________________________________________________________________________________
 
 - Скачать Docker Desktop и установить;
 
-- Для работы Docker: Docker версии 18 и выше; docker compose 1.24 и выше, curl, свободный порт 8080;
+- Для работы Docker: Docker версии 18 и выше; docker compose 1.24 и выше, curl, свободный порт;
 
 - Установить postgresql в терминале Docker: docker pull postgres;
 
