@@ -54,7 +54,7 @@ curl -X GET http://127.0.0.1:8080/api/v1/books
 
 - Получить соотвествующую запись по id:
 
-curl -X GET http://127.0.0.1:8080/api/v1/books/{id}
+curl -X GET http://127.0.0.1:8080/api/v1/book/{id}
 
 - Добавить запись:
 
